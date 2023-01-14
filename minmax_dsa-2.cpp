@@ -41,3 +41,14 @@ int main()
 
     return 0;
 }
+
+
+/* This is a minmax problem in which we have to find the minimum and maximum number from an array.
+1.Create a struct.
+2.Put min max values.
+3.Create a struct for minmax.
+4.Check for a single value where array size is 1 so the same value will be minimum and maximum.
+5.For two values check the greatest among them and assign minimum and maximum number respectively.
+6.For more than 2 elements in an array, compare the current value to the maximum at that time. If the current one is greater than maxmimum, then arr[i] = minmax.max;
+7.Check the same condition for minimum.
+8.Print the minimum and maximum.
